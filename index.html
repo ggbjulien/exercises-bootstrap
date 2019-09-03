@@ -26,7 +26,7 @@
 
       <div class="col-12 border border-dark">
         12 colonnes
-        <div class="row border border-dark">
+        <div class="row">
           <div class="col-1 offset-1 border border-primary">
             <p>Coucou</p>
           </div>
@@ -50,9 +50,7 @@
           </div>
         </div>
         <div class="col-9 border border-dark">
-          <div col="12">
             <p>Exercice</p>
-          </div>
           <div class="row">
             <div class="col-3 border border-primary">
               <p>ces</p>
@@ -91,9 +89,79 @@
 
       <h2 class="pt-3 pb-3">III - change elements order</h2>
 
-      <div class="row">
-        <div class="col"></div>
+      <div class="col-12 border border-dark">
+        12 colonnes
+        <div class="row">
+          <div class="col-2 offset-1 border border-primary">
+            <p>Bloc 1 de 2</p>
+          </div>
+          <div class="col-2 offset-2 order-last border border-success">
+            <p>Bloc 2 de 2</p>
+          </div>
+          <div class="col-2 offset-2 border border-danger">
+            <p>Bloc 3 de 2</p>
+          </div>
+        </div>
       </div>
+
+      <h2 class="pt-3 pb-3">IV - practice makes good</h2>
+
+      <div class="row">
+        <div class="col-6 border border-dark">
+          <p>6 Colonnes</p>
+          <div class="row">
+            <div class="col-4 border border-danger">
+              <p>4 Colonnes</p>
+            </div>
+            <div class="col-4 offset-4 border border-success">
+              <p>4 Colonnes</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 border border-dark">
+          <p>6 Colonnes</p>
+          <div class="row">
+            <div class="col-4 border border-danger">
+              <p>4 Colonnes</p>
+            </div>
+            <div class="col-8 border border-success">
+              <p>8 Colonnes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="pt-3 pb-3">V - responsive layout</h2>
+      <div class="row">
+        <div class="col-4 col-md-3 mb-2 pr-md-1">
+          <p class="bg-secondary border border-dark pt-4 pb-4">Logo ⅓</p>
+        </div>
+        <div class="col-8 col-md-9 mb-2 pl-md-1">
+          <p class="bg-secondary border border-dark pt-4 pb-4">Titre ⅔</p>
+        </div>
+        <div class="col-12 col-md-12 mb-2">
+          <p class="bg-secondary border border-dark pt-4 pb-4">Hero(1/1)</p>
+        </div>
+        <div class="col-12 col-md-4 mb-2 pr-md-4">
+          <p  class="bg-secondary border border-dark pt-4 pb-4">Zone 1</p>
+        </div>
+        <div class="col-12 col-md-4 mb-2 pl-md-0 pr-md-4">
+          <p  class="bg-secondary border border-dark pt-4 pb-4">Zone 2</p>
+        </div>
+        <div class="col-12 col-md-4 mb-2 pl-md-4 ">
+          <p  class="bg-secondary border border-dark pt-4 pb-4">Zone 3</p>
+        </div>
+        <div class="col-8 col-md-6 mb-2 pr-md-1">
+          <p  class="bg-secondary border border-dark pt-4 pb-4">Zone 5 ⅔</p>
+        </div>
+        <div class="col-4 col-md-6 mb-2 pl-md-1">
+          <p  class="bg-secondary border border-dark pt-4 pb-4">Zone 6 ⅓</p>
+        </div>
+        <div class="col-12 mb-2">
+          <p  class="bg-secondary border border-dark pt-4 pb-4">Footer</p>
+        </div>
+      </div>
+    </div>
     </div>
 
     <script
