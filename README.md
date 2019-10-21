@@ -1,6 +1,8 @@
 # exercises-bootstrap
 
-[## Link](https://ggbjulien.github.io/exercises-bootstrap/)
+## Link
+
+https://ggbjulien.github.io/exercises-bootstrap/
 
 
 ## Perform with bootstrap
@@ -21,5 +23,5 @@
 
 ## Change Logs
 
-- Last Update : 3 september 2019
+- Last Update : 21 october 2019
 
