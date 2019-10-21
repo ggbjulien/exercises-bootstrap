@@ -1,8 +1,6 @@
 # exercises-bootstrap
 
-## Link
-
-https://ggbjulien.github.io/exercises-bootstrap/
+Positioning with bootstrap.
 
 ## Built With
 
