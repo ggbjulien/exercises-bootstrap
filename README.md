@@ -4,10 +4,6 @@
 
 https://ggbjulien.github.io/exercises-bootstrap/
 
-
-## Perform with bootstrap
-
-
 ## Built With
 
 - [Bootstrap](https://getbootstrap.com/) - Framework css used
